@@ -23,11 +23,6 @@ Ensure you have the following installed:
 - Pandas & NumPy (for data manipulation)
 - Matplotlib & Seaborn (for visualization)
 
-Install dependencies using:
-```bash
-pip install tweepy scikit-learn nltk pandas numpy matplotlib seaborn
-```
-
 ## Data Collection
 - Fetch tweets using Tweepy
 - Store collected data in a CSV file for further processing
@@ -40,16 +35,6 @@ pip install tweepy scikit-learn nltk pandas numpy matplotlib seaborn
 ## Linear Discriminant Analysis (LDA)
 - Apply LDA on the dataset to reduce dimensions and improve classification accuracy.
 - Visualize LDA results using scatter plots.
-
-## Usage
-Run the sentiment analysis script:
-```bash
-python sentiment_analysis.py
-```
-Run the LDA script:
-```bash
-python lda_analysis.py
-```
 
 ## Results
 - Sentiment distribution of tweets
